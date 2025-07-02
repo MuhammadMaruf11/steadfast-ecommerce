@@ -1,7 +1,20 @@
+import ProductDetails from "@/components/HomeComponents/ProductDetails";
+import Breadcrumb from "@/components/ui/Breadcrumb";
+
 export default function Home() {
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Tops", href: "/tops" },
+    { label: "T-Shirts", },
+  ];
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-5xl">This is home page</h1>
-    </div>
+    <>
+      <section className="bg-[#E2E8F0]">
+        <Breadcrumb items={breadcrumbItems} />
+      </section>
+      <section className="bg-white">
+        <ProductDetails />
+      </section>
+    </>
   );
 }
