@@ -1,11 +1,21 @@
-const page = () => {
+import CartComponents from "@/components/CartComponents/CartComponents"
+import Breadcrumb from "@/components/ui/Breadcrumb";
+
+const Cart = () => {
+    const breadcrumbItems = [
+        { label: "Home", href: "/" },
+        { label: "My Cart", },
+    ];
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <h1 className="text-4xl">
-                This is Cart Page
-            </h1>
-        </div>
+        <>
+            <section className="bg-[#E2E8F0]">
+                <Breadcrumb items={breadcrumbItems} />
+            </section>
+            <section className="bg-[#E2E8F0] pb-32">
+                <CartComponents />
+            </section>
+        </>
     )
 }
 
-export default page
+export default Cart

@@ -15,7 +15,7 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
         <nav className="text-sm text-[#0F172A] flex items-center space-x-1 container mx-auto px-20 py-3">
             {items.map((item, index) => (
                 <div className="flex items-center space-x-1" key={index}>
-                    {index > 0 && <Image src='/img/icons/right.png' width={5} height={10} alt="right_icon" />}
+                    {index > 0 && <Image src='/img/icons/right.png' width={5} height={9} alt="right_icon" />}
                     {item.href ? (
                         <Link
                             href={item.href}

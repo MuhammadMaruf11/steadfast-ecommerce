@@ -13,7 +13,7 @@ const Button: FC<ButtonProps> = ({
     className = "",
     ...props
 }) => {
-    const baseStyle = "px-4 py-2 font-medium transition duration-200 border-none outline-none";
+    const baseStyle = "px-4 py-2 font-medium transition duration-200 border-none outline-none cursor-pointer";
     const variants: Record<string, string> = {
         primary: "bg-[#00A788] text-white hover:bg-[#00aa88]",
         secondary: "bg-gray-600 text-white hover:bg-gray-700",

@@ -84,10 +84,10 @@ const Footer = () => {
                     </div>
                     <div className="max-w-48 ms-auto">
                         <h5 className="text-lg text-[#94A3B8] mb-3">Need Support?</h5>
-                        <Image src='/img/symbol/support.png' width={170} height={40} alt="support_symbol" />
+                        <Image src='/img/symbol/support.png' width={170} height={41} alt="support_symbol" />
                         <h5 className="text-lg text-[#94A3B8] mb-3">DOWNLOAD APP?</h5>
-                        <Image src='/img/symbol/google.png' width={180} height={54} alt="support_symbol" />
-                        <Image src='/img/symbol/apple.png' width={180} height={54} alt="support_symbol" />
+                        <Image src='/img/symbol/google.png' width={180} height={55} alt="support_symbol" />
+                        <Image src='/img/symbol/apple.png' width={180} height={55} alt="support_symbol" />
                     </div>
                 </div>
                 <div className="flex justify-between">
@@ -96,24 +96,24 @@ const Footer = () => {
                         <ul className="flex gap-2">
                             <li>
                                 <Link href='/' className="">
-                                    <Image src='/img/icons/facebook.png' className="" alt="call_icon" width={32} height={32} />
+                                    <Image src='/img/icons/facebook.png' className="" alt="call_icon" width={32} height={33} />
                                 </Link>
                             </li>
                             <li>
                                 <Link href='/' className="">
-                                    <Image src='/img/icons/instagram.png' className="" alt="call_icon" width={32} height={32} />
+                                    <Image src='/img/icons/instagram.png' className="" alt="call_icon" width={32} height={33} />
                                 </Link>
                             </li>
                             <li>
                                 <Link href='/' className="">
-                                    <Image src='/img/icons/twitter.png' className="" alt="call_icon" width={32} height={32} />
+                                    <Image src='/img/icons/twitter.png' className="" alt="call_icon" width={32} height={33} />
                                 </Link>
                             </li>
                         </ul>
                     </div>
                     <div className="flex gap-3 items-center mt-9">
                         <h5 className="text-lg text-[#94A3B8] mb-3">PAYMENTS ACCEPTED</h5>
-                        <Image src='/img/logo/payment-logo.png' className="" alt="call_icon" width={373} height={43} />
+                        <Image src='/img/logo/payment-logo.png' className="" alt="call_icon" width={373} height={67} />
                     </div>
                 </div>
             </div>

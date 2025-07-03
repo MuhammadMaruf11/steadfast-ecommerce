@@ -25,7 +25,7 @@ const SearchBar = () => {
                 className="flex-1 bg-white text-[#475569] placeholder:text-[#475569] rounded-tl-sm rounded-bl-sm"
             />
             <Button onClick={handleSearch} className="rounded-tr-sm rounded-br-sm">
-                <Image src='/img/icons/search.png' width={20} height={20} alt="search_icon" />
+                <Image src='/img/icons/search.png' width={20} height={21} alt="search_icon" />
             </Button>
         </div>
     );
